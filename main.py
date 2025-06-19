@@ -119,7 +119,7 @@ def get_proxies(output_file="proxies.txt"):
     
     return total_new, len(existing_proxies)
 
-# ===== ФУНКЦИИ ПАРСЕРОВ (без изменений из предыдущего кода) =====
+# ===== ФУНКЦИИ ПАРСЕРОВ 
 def parse_free_proxy_list(soup):
     proxies = []
     table = soup.find('table', {'class': 'table'})
